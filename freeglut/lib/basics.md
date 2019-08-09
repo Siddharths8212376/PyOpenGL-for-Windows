@@ -1,1 +1,1 @@
-Add this file to the installation of glut.
+for all the x64 versions
