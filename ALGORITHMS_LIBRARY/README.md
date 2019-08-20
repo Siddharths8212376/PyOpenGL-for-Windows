@@ -5,5 +5,15 @@ ___
 Copy the Algorithms folder into your working directory.
 Import the files as:
 
-**```from Algorithms.__program_name__ import __class_name__```**
+```from```**```Algorithms.__program_name__```** ```import``` **```__class_name__```**
+
+Creating an object:
+
+**```__object_name__```** ```=``` **```__class_name__(__arg_list__)```**
+
+Calling class method:
+
+**```__object_name__.__class_method_name__()```**
 ___
+
+Adding more documentations soon...
