@@ -15,5 +15,6 @@ Calling class method:
 
 **```__object_name__.__class_method_name__()```**
 ___
+The **```__init__.py```** file makes the following set of programs a library.
 
 Adding more documentations soon...
