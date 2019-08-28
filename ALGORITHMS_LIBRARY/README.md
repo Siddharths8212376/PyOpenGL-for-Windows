@@ -17,4 +17,15 @@ Calling class method:
 ___
 The **```__init__.py```** file makes the following set of programs a library.
 
+Example for calling a library function:
+
+**Call midpoint_circle algorithm to create a circle:**
+___
+
+**step 1  :** Import Statement
+
+```from```**```Algorithms.circle_algorithms```** ```import``` **```circle_algorithms```**
+
+
+
 Adding more documentations soon...
