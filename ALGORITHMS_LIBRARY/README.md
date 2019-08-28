@@ -22,10 +22,21 @@ Example for calling a library function:
 **Call midpoint_circle algorithm to create a circle:**
 ___
 
-**step 1  :** Import Statement
+**Step 1  :** Import Statement
 
 ```from```**```Algorithms.circle_algorithms```** ```import``` **```circle_algorithms```**
 
+**Step 2  :** Instance Creation
+
+**```midpoint_circle```** ```=``` **```circle_algorithms(__radius_value__, __x_centre__, __y_centre__)```**
+
+```# This statement created a circle with the passed in values of radius, x_centre and y_centre.```
+
+**Step 3  :** Calling the object function
+
+**```midpoint_circle.midpoint_circle()```**
+
+___
 
 
 Adding more documentations soon...
