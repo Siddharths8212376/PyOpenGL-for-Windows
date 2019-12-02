@@ -46,8 +46,8 @@ def bounce():
     glClear(GL_COLOR_BUFFER_BIT)
     
     # changes in x and y
-    x += 0.1 * dx
-    y += 0.1 * dy
+    x += 0.001 * dx
+    y += 0.001 * x * x * dy
     
     # keep the motion mathematics
     # safe from harm
@@ -55,6 +55,7 @@ def bounce():
     glPushMatrix()
     glTranslate(x, y, 0)
     glutSolidSphere(0.1, 50, 50)
+    # glutSolidCube(0.1)
     glPopMatrix()
     
     # detection of collision
@@ -62,7 +63,8 @@ def bounce():
         dx = -1 * dx
     if y >= ax_range or y <= -ax_range:
         dy = -1 * dy
-    glFlush()
+    # glFlush()
+    glutSwapBuffers()
     
 # keyboard function
 def keyboard(key, x, y):
