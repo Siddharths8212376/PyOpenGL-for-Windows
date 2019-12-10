@@ -7,8 +7,8 @@ right = 2
 bottom = 4
 top = 8
 # defining min_max boundaries
-x_min, y_min = 4, 4
-x_max, y_max = 100, 100
+x_min, y_min = 0, 0
+x_max, y_max = 200, 100
 # define compute code funtionality
 def computeCode(x, y):
     code = inside
@@ -134,11 +134,11 @@ def plot_points():
     min_Y.dda_line()
     max_X.dda_line()
     max_Y.dda_line()
-    r_x = [0, 0]
-    r_y = [200, 100]
+    r_x = [100, 0]
+    r_y = [200, 0]
     line_random = line_algorithm(r_x, r_y)
     # line_random.dda_line()
-    final_begin, final_end = cohenSutherlandClip(0, 0, 200, 100)
+    final_begin, final_end = cohenSutherlandClip(100, 0, 200, 0)
     final_line = line_algorithm(final_begin, final_end)
     final_line.dda_line()
     glEnd()

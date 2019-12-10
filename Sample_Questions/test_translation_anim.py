@@ -1,5 +1,5 @@
 # pybounce.py
-
+# a - animate s - stop
 from OpenGL.GL import *
 from OpenGL.GLU import *
 from OpenGL.GLUT import *
@@ -47,7 +47,7 @@ def bounce():
     
     # changes in x and y
     x += 0.001 * dx
-    y += 0.001 * x * x * dy
+    y += 0.001 * dy
     
     # keep the motion mathematics
     # safe from harm
